@@ -1,0 +1,75 @@
+@font-face {
+    font-family: gotham;
+    src: url('https://fonts.cdnfonts.com/css/gotham');
+ }
+
+
+/* header section */
+.header{
+    background: #C4C4C4;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 75px;
+    width: 311px;
+    margin: 9px;
+}
+.body {
+    max-width: 1024px;
+    margin: auto;
+}
+
+.mainmenu{
+    background: #E77F45;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+.mainmenutext {
+    padding-top: 17px;
+    padding-left: 55px;
+    padding-right: 25px;
+    font-family: 'Gotham', sans-serif;
+    width: 22%;
+}
+.mainmenutext2 {
+    padding-top: 17px;
+    font-family: 'Gotham', sans-serif;
+    width: 20%;
+}
+#usericon {
+    float: left;
+    margin: -2px;
+    padding-right: 5px;
+}
+.secondmenu {
+    background: #fffdfd;
+    height: 50px;                 
+}
+
+.banner{
+    max-width: 100%;
+    height: auto;
+    
+}
+#search {
+    border-color: black;
+    border-width: 2px;
+    padding: 5px;
+    color: lightgray;
+    background-color: white;
+    width: 200px;
+    height: 20px;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+#searchicon {
+    float: right;
+    margin: -2px;
+}
