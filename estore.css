@@ -16,7 +16,8 @@
 .logo{
     height: 75px;
     width: 311px;
-    margin: 9px;
+    margin-top: 9px;
+    padding-left: 0px;
 }
 .body {
     max-width: 1024px;
@@ -33,7 +34,7 @@
 }
 .mainmenutext {
     padding-top: 17px;
-    padding-left: 55px;
+    padding-left: 23px;
     padding-right: 25px;
     font-family: 'Gotham', sans-serif;
     width: 22%;
@@ -48,9 +49,23 @@
     margin: -2px;
     padding-right: 5px;
 }
+
 .secondmenu {
     background: #fffdfd;
-    height: 50px;                 
+    height: 50px;   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;          
+}
+.secMenuText{
+    padding-top: 17px;
+    padding-left: -17px;
+    padding-right: 25px;
+    font-family: 'Gotham', sans-serif;
+    align-items: center;
+    text-align: center;
+    width: 22%;
+    font-weight: 500;
 }
 
 .banner{
