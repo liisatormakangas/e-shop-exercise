@@ -2,6 +2,7 @@
     font-family: gotham;
     src: url('https://fonts.cdnfonts.com/css/gotham');
  } */
+
  body{
     font-family: gotham;
     src: url('https://fonts.cdnfonts.com/css/gotham');
@@ -107,6 +108,7 @@
 .navigation{
 
 }
+/* left column - filter section */
 .filterSection{
     float: left;
     width: 164px;
@@ -132,7 +134,7 @@ input[type='number']{
     width: 56px;
     font-size: 11px;
 }
-.price-field {
+.price-filter-field {
     display: inline-block;
     position: relative;
     top: -7px;
@@ -148,4 +150,44 @@ input[type='number']{
 }
 #price-label-max{
     left: 70px;
+}
+.sections {    
+    height:1000px; /* just for testing */
+}
+/* Clear floats after the columns */
+.sections::after {
+    /* content: "";
+    display: table; */
+    clear: both;
+  }
+footer {
+    height: 95px;
+    background-color: #C4C4C4;
+}
+.footer-logo .logo {
+    width: 157px;
+    height: 37px;
+    left: 22px;
+}
+.footer-text-area{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 13px;
+    padding-top: 5px;
+    padding-left: 23px;
+    padding-right: 20px;
+}
+#copy-right-icon{
+    width: 15px;
+    height: 15px;
+    padding-top: 0px;
+}
+#call-icon
+#fb-icon
+#insta-icon{
+    width: 24px;
+    height: 24px;
 }
