@@ -65,8 +65,12 @@
             </div> 
             <div class="filterCategories">
                 <p class="heading2">Price</p>
-                <input type="number" id="quantity" name="quantity" min="0" max="10">
-                <input type="number" id="quantity" name="quantity" min="0" max="10">
+                <div class="price-field">
+                    <input type="number" id="price-mini" name="price-mini" min="0" max="1000">
+                    <label id="price-label-mini" for="price-mini"> Min €  </label>
+                    <input type="number" id="price-max" name="price-max" min="0" max="1000">
+                    <label id="price-label-max" for="price-max"> Max €  </label>
+                </div>
             </div>     
             <div class="filterCategories">
                 <p class="heading2">Flavor</p>
