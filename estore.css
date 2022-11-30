@@ -1,8 +1,24 @@
-@font-face {
+/* @font-face {
+    font-family: gotham;
+    src: url('https://fonts.cdnfonts.com/css/gotham');
+ } */
+ body{
     font-family: gotham;
     src: url('https://fonts.cdnfonts.com/css/gotham');
  }
-
+ .heading1{
+    /* font-family: gotham; */
+    /* src: url('https://fonts.cdnfonts.com/css/gotham'); */
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 21px;
+    color: #000000;
+ }
+.heading2{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 13px;
+}
 
 /* header section */
 .header{
@@ -87,4 +103,27 @@
 #searchicon {
     float: right;
     margin: -2px;
+}
+.navigation{
+
+}
+.filterSection{
+    float: left;
+    width: 164px;
+    /* temporary bg color for testing purpose */
+    background-color: #E77F45; 
+}
+.filterSection .heading1{
+    padding-left: 23px;
+    color: #000000;
+}
+.filterSection .filterCategories{
+    color: #000000;
+    padding-left: 23px;
+}
+.filterOptions{
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 11px;
+    color: #000000;
 }
