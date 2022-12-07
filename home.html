@@ -35,14 +35,19 @@
             <img class="banner" src="images/banner.png">
         </div>
         <div class="navigation">
-            <p>home</p>
+            <ul class="breadcrumb">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Chips</a></li>
+                <li>Cheesy Chips</li>
+              </ul>
         </div>
         <!-- begin of floating columns -->
+        <!-- filter section -->
         <div class="sections">
             <div class="filterSection">
-                <P class="heading1">Filter</p>
+                <div class="heading1">Filter</div>
                 <div class="filterCategories">
-                    <p class="heading2">Brand</p>
+                    <div class="heading2">Brand</div>
                     <form class="filterOptions" action="" method="get">
                         <input type="checkbox" name="brand1" value="brand1">
                         <label for="brand1"> Lay's</label><br>
@@ -55,7 +60,7 @@
                     </form>
                 </div>
                 <div class="filterCategories">
-                    <p class="heading2">Popularity</p>
+                    <div class="heading2">Popularity</div>
                     <form class="filterOptions" action="" method="get">
                         <input type="checkbox" name="popu1" value="popu1">
                         <label for="popu1"> 4 Star & up</label><br>
@@ -68,7 +73,7 @@
                     </form>
                 </div>
                 <div class="filterCategories">
-                    <p class="heading2">Price</p>
+                    <div class="heading2">Price</div>
                     <div class="price-filter-field">
                         <input type="number" id="price-mini" name="price-mini" min="0" max="1000">
                         <label id="price-label-mini" for="price-mini"> Min € </label>
@@ -77,7 +82,7 @@
                     </div>
                 </div>
                 <div class="filterCategories">
-                    <p class="heading2">Flavor</p>
+                    <div class="heading2">Flavor</div>
                     <form class="filterOptions" action="" method="get">
                         <input type="checkbox" name="flav1" value="flav1">
                         <label for="flav1"> Cheesy</label><br>
@@ -90,7 +95,7 @@
                     </form>
                 </div>
                 <div class="filterCategories">
-                    <p class="heading2">Dietary Restrictions</p>
+                    <div class="heading2">Dietary Restrictions</div>
                     <form class="filterOptions" action="" method="get">
                         <input type="checkbox" name="diet1" value="diet1">
                         <label for="diet1"> Lactose Free </label><br>
@@ -103,7 +108,153 @@
                     </form>
                 </div>
             </div>
+        
+        <!-- product list section -->
+        <div class="item-container">
+            <div class="item-topic">Cheesy Chips</div>
+            <!-- item-row contain 4 product cards begins-->
+        <div class="item-row">
+            <div class="item">
+                <div class="item-wrapper">
+                    <div class="item-notice">
+                        <div class="notice-text">SALE!</div>
+                        <div class="notice-numerical">20%</div>
+                    </div>
+                    <img class="item-image" src="images/bugles.png">
+                    <div class="item-name">Buggle lay's</div>
+                    <div class="item-price"><del>$19.99</del> &nbsp; <span style="color:#E77F45;">15,99e</span></div>
+                    <div><button>Add to Cart</button></div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="item-wrapper">
+                    <div class="item-notice">
+                        <div class="notice-text">SALE!</div>
+                        <div class="notice-numerical">20%</div>
+                    </div>
+                    <img class="item-image" src="images/bugles.png">
+                    <div class="item-name">Buggle lay's</div>
+                    <div class="item-price"><del>$19.99</del> &nbsp; <span style="color:#E77F45;">15,99e</span></div>
+                    <div><button>Add to Cart</button></div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="item-wrapper">
+                    <div class="item-notice">
+                        <div class="notice-text">SALE!</div>
+                        <div class="notice-numerical">20%</div>
+                    </div>
+                    <img class="item-image" src="images/bugles.png">
+                    <div class="item-name">Buggle lay's</div>
+                    <div class="item-price"><del>$19.99</del> &nbsp; <span style="color:#E77F45;">15,99e</span></div>
+                    <div><button>Add to Cart</button></div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="item-wrapper">
+                    <div class="item-notice">
+                        <div class="notice-text">SALE!</div>
+                        <div class="notice-numerical">20%</div>
+                    </div>
+                    <img class="item-image" src="images/bugles.png">
+                    <div class="item-name">Buggle lay's</div>
+                    <div class="item-price"><del>$19.99</del> &nbsp; <span style="color:#E77F45;">15,99e</span></div>
+                    <div><button>Add to Cart</button></div>
+                </div>
+            </div>
+
         </div>
+
+     <!-- item-row contain 4 product cards begins-->
+        <div class="item-row">
+            <div class="item">
+                <div class="item-wrapper">
+                    <div class="item-notice">
+                        <div class="notice-text">SALE!</div>
+                        <div class="notice-numerical">20%</div>
+                    </div>
+                    <img class="item-image" src="images/bugles.png">
+                    <div class="item-name">Buggle lay's</div>
+                    <div class="item-price"><del>$19.99</del> &nbsp; <span style="color:#E77F45;">15,99e</span></div>
+                    <div><button>Add to Cart</button></div>
+                </div>
+            </div>
+
+            <div class="item" style="border: 1px solid #C4C4C4">
+                <div class="item-wrapper">
+                    <div class="item-notice">
+                        <div class="notice-text" style="color:#C4C4C4;">SOLD OUT</div>
+                        <div class="notice-numerical" style=" background-color: #C4C4C4; color: white;">20%</div>
+                    </div>
+                    <img class="item-image" src="images/bugles.png">
+                    <div class="item-name">Buggle lay's</div>
+                    <div class="item-price"><del>$19.99</del> &nbsp; <span style="color:#C4C4C4;">15,99e</span></div>
+                    <div><button style="background-color: #C4C4C4;">Add to Cart</button></div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="item-wrapper">
+                    <div class="item-notice">
+                        <div class="notice-text">SALE!</div>
+                        <div class="notice-numerical">20%</div>
+                    </div>
+                    <img class="item-image" src="images/bugles.png">
+                    <div class="item-name">Buggle lay's</div>
+                    <div class="item-price"><del>$19.99</del> &nbsp; <span style="color:#E77F45;">15,99e</span></div>
+                    <div><button>Add to Cart</button></div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="item-wrapper">
+                    <div class="item-notice">
+                        <div class="notice-text">SALE!</div>
+                        <div class="notice-numerical">20%</div>
+                    </div>
+                    <img class="item-image" src="images/bugles.png">
+                    <div class="item-name">Buggle lay's</div>
+                    <div class="item-price"><del>$19.99</del> &nbsp; <span style="color:#E77F45;">15,99e</span></div>
+                    <div><button>Add to Cart</button></div>
+                </div>
+            </div>
+
+        </div>
+    <!-- item-row contain 4 product cards ends-->
+     <!-- item-row contain 4 product cards begins-->
+     <div class="item-row">
+        <div class="item">
+            <div class="item-wrapper">
+                <div class="item-notice">
+                    <div class="notice-text">SALE!</div>
+                    <div class="notice-numerical">20%</div>
+                </div>
+                <img class="item-image" src="images/bugles.png">
+                <div class="item-name">Buggle lay's</div>
+                <div class="item-price"><del>$19.99</del> &nbsp; <span style="color:#E77F45;">15,99e</span></div>
+                <div><button>Add to Cart</button></div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="item-wrapper">
+                <div class="item-notice">
+                    <div class="notice-text">SALE!</div>
+                    <div class="notice-numerical">20%</div>
+                </div>
+                <img class="item-image" src="images/bugles.png">
+                <div class="item-name">Buggle lay's</div>
+                <div class="item-price"><del>$19.99</del> &nbsp; <span style="color:#E77F45;">15,99e</span></div>
+                <div><button>Add to Cart</button></div>
+            </div>
+        </div>
+    </div>
+<!-- item-row contain 4 product cards ends-->
+        </div>
+    </div>
         <!-- end of floating sections -->
         <footer>
             <div class="footer-logo">
