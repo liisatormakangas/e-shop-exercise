@@ -4,8 +4,9 @@
  } */
 
  body{
-    font-family: gotham;
-    src: url('https://fonts.cdnfonts.com/css/gotham');
+    font-family: 'Gotham Bold';
+    /* src: url('https://fonts.cdnfonts.com/css/gotham-bold'); */
+    font-weight: 500;
     max-width: 1024px;
     margin: auto;
  }
@@ -47,12 +48,10 @@
     padding-top: 17px;
     padding-left: 23px;
     padding-right: 25px;
-    font-family: 'Gotham', sans-serif;
     width: 22%;
 }
 .mainmenutext2 {
     padding-top: 17px;
-    font-family: 'Gotham', sans-serif;
     width: 20%;
 }
 #usericon {
@@ -71,7 +70,6 @@
     padding-top: 17px;
     padding-left: -17px;
     padding-right: 25px;
-    font-family: 'Gotham', sans-serif;
     align-items: center;
     text-align: center;
     width: 22%;
