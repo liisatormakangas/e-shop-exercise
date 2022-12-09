@@ -4,6 +4,7 @@
 <head>
     <title>Chips and Nuts|Home</title>
     <meta charset="utf-8">
+    <link href="https://fonts.cdnfonts.com/css/gotham-bold" rel="stylesheet">
     <link rel="stylesheet" href="estore.css">
 
 </head>
@@ -12,28 +13,39 @@
     <div class="body">
         <div class="header">
             <img class="logo" src="images/logo.svg">
-            <div id="search"><img id="searchicon" src="icons/search.svg">Search...</div>
+            <!-- <div id="search"><img id="searchicon" src="icons/search.svg">Search...</div> -->
+            <div class="search-container">
+                <form action="#">
+                  <input type="text" placeholder="Search.." name="search">
+                  <button type="submit"><img src="icons/search.svg"></button>
+                </form>
+              </div>
         </div>
         <div class="mainmenu">
-            <div class="mainmenutext">HOME</div>
-            <div class="mainmenutext">ABOUT</div>
-            <div class="mainmenutext">CONTACT</div>
-            <div class="mainmenutext2">
+            <div class="mainmenutext"><a style="text-decoration:none; color:inherit;" href="#">HOME</a></div>
+            <div class="mainmenutext"><a style="text-decoration:none; color:inherit;" href="#">ABOUT</a></div>
+            <div class="mainmenutext"><a style="text-decoration:none; color:inherit;" href="#">CONTACT</a></div>
+           
+    
+            <div class="mainmenutext2"
                 <div id="usericon">
                     <img src="icons\white-shopping-cart.svg">
                 </div>    
                     <a class="cart-link" href="cart.html">MY CART</a>
-                
+               
+                <div id="usericon"> <a style="text-decoration:none; color:inherit;" href="#"><img id="usericon" src="icons\white-shopping-cart.svg">MY CART</a
             </div>
-            <div class="mainmenutext2"><img id="usericon" src="icons\white-login.svg">LOGIN</div>
-        </div>
+            <div class="mainmenutext2">
+                <div id="usericon"></div><a style="text-decoration:none; color:inherit;" href="#"><img id="usericon" src="icons\white-login.svg">LOGIN</a></div>
+            </div>
+       
         <div class="secondmenu">
-            <div class="secMenuText">Chips</div>
-            <div class="secMenuText">Nuts</div>
-            <div class="secMenuText">Popcorn</div>
-            <div class="secMenuText">Crackers</div>
-            <div class="secMenuText">Sweets</div>
-            <div class="secMenuText">Sauces</div>
+            <div class="secMenuText"><a style="text-decoration:none; color:inherit;" href="#">Chips</a></div>
+            <div class="secMenuText"><a style="text-decoration:none; color:inherit;" href="#">Nuts</a></div>
+            <div class="secMenuText"><a style="text-decoration:none; color:inherit;" href="#">Popcorn</a></div>
+            <div class="secMenuText"><a style="text-decoration:none; color:inherit;" href="#">Crackers</a></div>
+            <div class="secMenuText"><a style="text-decoration:none; color:inherit;" href="#">Sweets</a></div>
+            <div class="secMenuText"><a style="text-decoration:none; color:inherit;" href="#">Sauces</a></div>
         </div>
         <div>
             <img class="banner" src="images/banner.png">
