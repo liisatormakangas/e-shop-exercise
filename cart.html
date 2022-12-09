@@ -1,14 +1,162 @@
-<!DOCTYPE <!DOCTYPE html>
-
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>Chips and Nuts|Cart</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="estore.css">
-    </head>
-    <body>
-       
-        
-        
-    </body>
+
+<head>
+    <title>Chips and Nuts|Cart</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="estore.css">
+</head>
+
+<body>
+    <div class="body">
+        <div class="header">
+            <img class="logo" src="images/logo.svg">
+            <div id="search"><img id="searchicon" src="icons/search.svg">Search...</div>
+        </div>
+        <div class="mainmenu">
+            <div class="mainmenutext"><a href="home.html" style="color: white; text-decoration: none">HOME</a></div>
+            <div class="mainmenutext">ABOUT</div>
+            <div class="mainmenutext">CONTACT</div>
+            <div class="mainmenutext2">
+                <div id="usericon">
+                    <img src="icons\white-shopping-cart.svg">
+                </div>
+                <a class="cart-link" href="cart.html">MY CART</a>
+                <img style="padding-bottom: 15px" src="icons/cart_amount.svg">
+            </div>
+            <div class="mainmenutext2"><img id="usericon" src="icons\white-login.svg">LOGIN</div>
+        </div>
+        <div class="navigation2">
+            <div style="font-size:large">SHOPPING CART (4 items)</div>
+            <div class="back-key"><a href="home.html">Back to shopping</a></div>
+        </div>
+
+        <div class="cart-view">
+            <div class="cart-product-area">
+
+                <div class="product">
+                    <div class="product-div1"><img style="width: 50%" src="images/product1.jpg"></div>
+                    <div class="product-div2">
+                        <div>Lay`s Bugles Original</div>
+                        <div>Lightly salted</div>
+                        <div>12 x 95 g</div>
+                    </div>
+                    <div class="product-div3">
+                        <div>3</div>
+                        <div><img src="icons/selector.svg"></div>
+                    </div>
+                    <div class="product-div4">36,21 €</div>
+                    <div class="product-div5"><img src="icons/trash.svg"></div>
+                </div>
+
+                <div class="product">
+                    <div class="product-div1"><img style="width: 50%" src="images/dippi.png"></div>
+                    <div class="product-div2">
+                        <div>Lay`s French Onion Dipp</div>
+                        <div>Multi-pack</div>
+                        <div>4 x 125 g</div>
+                    </div>
+                    <div class="product-div3">
+                        <div>1</div>
+                        <div><img src="icons/selector.svg"></div>
+                    </div>
+                    <div class="product-div4">19,60 €</div>
+                    <div class="product-div5"><img src="icons/trash.svg"></div>
+                </div>
+
+                <div class="product">
+                    <div class="product-div1"><img style="width: 50%" src="images/poppa.png"></div>
+                    <div class="product-div2">
+                        <div>Popcorners Snacks</div>
+                        <div>Glutein free</div>
+                        <div>6 x 95 g</div>
+                    </div>
+                    <div class="product-div3">
+                        <div>2</div>
+                        <div><img src="icons/selector.svg"></div>
+                    </div>
+                    <div class="product-div4">26,60 €</div>
+                    <div class="product-div5"><img src="icons/trash.svg"></div>
+                </div>
+
+                <div class="product">
+                    <div class="product-div1"><img style="width: 50%" src="images/Marys.png"></div>
+                    <div class="product-div2">
+                        <div>Mary's Cone Crackers</div>
+                        <div>Lightly salted</div>
+                        <div>249 g</div>
+                    </div>
+                    <div class="product-div3">
+                        <div>3</div>
+                        <div><img src="icons/selector.svg"></div>
+                    </div>
+                    <div class="product-div4">12,60 €</div>
+                    <div class="product-div5"><img src="icons/trash.svg"></div>
+                </div>
+            </div>
+
+            <div class="right-side-bar">
+                <div class="cart-login_register">
+                    <button class="register-login-buttons">Register</button>
+                    or
+                    <button class="register-login-buttons">Login</button>
+                </div>
+                <div style="padding-bottom: 20px">Continue without registry:</div>
+                <div class="cart-country">
+                    <label>Country:</label>
+                    <select class="country-select">
+                        <option>Finland</option>
+                        <option>Sweden</option>
+                        <option>Norway</option>
+                        <option>Denmark</option>
+                        <option>Estonia</option>
+                    </select>
+                </div>
+                <div class="cart-country">
+                    <label>Postal Code:</label>
+                    <input class="postal-code" placeholder="90100">
+                </div>
+                <div style="padding-top: 20px; padding-bottom: 5px;">Estimated Delivery Time:</div>
+                <div style="color:rgb(110, 199, 22); padding-bottom: 20px">Friday, December 23</div>
+                <div class="cart-prices">
+                    <div>Subtotal:</div>
+                    <div>95,01 €</div>
+                </div>
+                <div class="cart-prices">
+                    <div>Delivery to Finland:</div>
+                    <div>12,50 €</div>
+                </div>
+                <div class="cart-prices">
+                    <div>Delivery (In-country):</div>
+                    <div>0,00 €</div>
+                </div>
+                <div class="cart-prices">
+                    <div>Total:</div>
+                    <div style="font-size: 24px; color: red;">107,51 €</div>
+                </div>
+                <button class="confirm-order-button" type="button">Confirm Order</button>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-logo">
+                <img class="logo" src="images/logo.svg">
+            </div>
+            <div class="footer-text-area">
+                <div class="footertext">
+                    <img id="copy-right-icon" src="icons\copyright.svg">
+                    <div>Chips and Nuts Food Retailers</div>
+                </div>
+                <div>Terms of Use</div>
+                <div>Privacy Policy</div>
+                <div class="footertext">
+                    <img id="call-icon" src="icons\call.svg">
+                    <div>+358 40 378900</div>
+                </div>
+                <img class="fb-icon" src="icons\facebook.svg">
+                <img class="insta-icon" src="icons\insta.svg">
+            </div>
+        </footer>
+    </div>
+</body>
+
 </html>

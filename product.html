@@ -2,15 +2,9 @@
 <html>
 
 <head>
-    <title>Chips and Nuts|Home</title>
+    <title>Chips and Nuts|Product</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="estore.css">
-    <style>
-        hr {
-            padding: 0px;
-            margin: 0px;
-        }
-    </style>
 </head>
 
 <body>
@@ -19,6 +13,19 @@
             <img class="logo" src="images/logo.svg">
             <div id="search"><img id="searchicon" src="icons/search.svg">Search...</div>
         </div>
+        <div class="mainmenu">
+            <div class="mainmenutext"><a href="home.html" style="color: white; text-decoration: none">HOME</a></div>
+            <div class="mainmenutext">ABOUT</div>
+            <div class="mainmenutext">CONTACT</div>
+            <div class="mainmenutext2">
+                <div id="usericon">
+                    <img src="icons\white-shopping-cart.svg">
+                </div>
+                <a class="cart-link" href="cart.html">MY CART</a>
+                <img style="padding-bottom: 15px" src="icons/cart_amount.svg">
+            </div>
+            <div class="mainmenutext2"><img id="usericon" src="icons\white-login.svg">LOGIN</div>
+        </div>
         <div class="navigation">
             <!-- <p>Home/Chips/Cheesy flavor/Lay’s Bugles Original </p> -->
             <ul class="breadcrumb">
@@ -26,19 +33,21 @@
                 <li><a href="#">Chips</a></li>
                 <li><a href="#">Cheesy Flavor</a></li>
                 <li>Lay's Bugles Original</li>
-              </ul>
-            <div class="back-key">Back to shopping</div>
+            </ul>
+            <div class="back-key"><a href="home.html">Back to shopping</a></div>
         </div>
         <div class="product">
             <div class="product_left">
-                <div style="margin-left:-20px; color: #df0909; padding-bottom: 15px;">-20% sale!</div>
+                <div style="margin-left:-20px; color: red; padding-bottom: 15px;">-20% sale!</div>
                 <img class="product_main_image" src="images/product1.jpg">
                 <ul>
                     <li>Bugles, the first cone-shaped corn snack</li>
                     <li>Lightly salted and uniquely crunchy</li>
-                    <li> Made with crispy corn and contains no trans fat</li>
+                    <li>Made with crispy corn</li>
+                    <li>Contains no trans fat</li>
                     <li>With three different flavors</li>
                 </ul>
+                <div class="detailed-info">Detailed product information</div>
                 <div class="product_smaller_images">
                     <img style="width: 13%" src="images/product2.jpg">
                     <img style="width: 14%" src="images/bugles.png">
@@ -46,10 +55,10 @@
 
             </div>
             <div class="product_right">
-                <div style="font-size: 30px; padding-top: 50px; padding-bottom: 10px;">Lay’s Bugles Original</div>
+                <div class="product_heading">Lay`s Bugles Original</div>
                 <div class="product_price">
-                    <div style="text-decoration: line-through;">15,09 €</div>
-                    <div style="color:#E77F45; font-size: 30px; margin-left: 10px;">12,07 €</div>
+                    <div style="text-decoration: line-through">15,09 €</div>
+                    <div style="color: red; font-size: 30px; margin-left: 10px;">12,07 €</div>
                 </div>
                 <div class="rating">
                     <img style="width: 100px" src=icons/rating.svg>
@@ -57,24 +66,33 @@
                 </div>
                 <div>
                     <div>
-                        <div class="product_input"><img id="product_dropdown" src="icons/dropdown.svg">Package size</div>
+                        <label>Flavor:</label>
+                        <br>
+                        <select class="product_choice">
+                            <option>Original</option>
+                            <option>Cheesy</option>
+                            <option>Sourcream & Onion</option>
+                            <option>Vinegar</option>
+                        </select>
                     </div>
                     <div>
-                        <div class="product_input"><img id="product_dropdown" src="icons/dropdown.svg">Flavor</div>
+                        <label>Package size:</label>
+                        <br>
+                        <select class="product_choice">
+                            <option>12 x 95 g</option>
+                            <option>95 g</option>
+                            <option>250 g</option>
+                        </select>
                     </div>
                 </div>
                 <div style="padding-bottom: 15px; margin-top: 35px;">to shopping cart:</div>
                 <div class="add_to_cart">
                     <div class="to_cart_box1">
-                        <div style="padding-top: 12px"> 2</div>
+                        <div style="padding-top: 7px"> 2</div>
                     </div>
                     <img src="icons/black-shopping-cart.svg">
                     <div class="to_cart_box2">
-                        <div>+</div>
-                        <div>
-                            <hr>
-                        </div>
-                        <div>-</div>
+                        <div><img style="padding-top: 10px" src="icons/selector.svg"></div>
                     </div>
                 </div>
                 <div class="stockavail">
@@ -84,10 +102,9 @@
                         <img style="color:lawngreen" src="icons/check.svg">
                     </div>
                 </div>
-                <div style="text-decoration: underline;">Detailed product information</div>
+                <button class="add-to-cart-button" type="button">Add to shopping cart</button>
             </div>
         </div>
-
         <footer>
             <div class="footer-logo">
                 <img class="logo" src="images/logo.svg">
@@ -103,8 +120,8 @@
                     <img id="call-icon" src="icons\call.svg">
                     <div>+358 40 378900</div>
                 </div>
-                <img id="fb-icon" src="icons\facebook.svg">
-                <img id="insta-icon" src="icons\insta.svg">
+                <img class="fb-icon" src="icons\facebook.svg">
+                <img class="insta-icon" src="icons\insta.svg">
             </div>
         </footer>
     </div>
