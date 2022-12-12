@@ -6,10 +6,12 @@
     <meta charset="utf-8">
     <link href="https://fonts.cdnfonts.com/css/gotham-bold" rel="stylesheet">
     <link rel="stylesheet" href="estore.css">
+    <link rel="stylesheet" href="cart.css">
 </head>
 
 <body>
     <div class="body">
+        <!-- header bar and logo -->
         <div class="header">
             <img class="logo" src="images/logo.svg">
             <div class="search-container">
@@ -19,7 +21,7 @@
                 </form>
             </div>
         </div>
-        
+        <!-- main menu bar -->
         <div class="mainmenu">
             <div class="mainmenutext"><a href="home.html" style="color: white; text-decoration: none">HOME</a></div>
             <div class="mainmenutext">ABOUT</div>
@@ -33,14 +35,25 @@
             </div>
             <div class="mainmenutext2"><img id="usericon" src="icons\white-login.svg">LOGIN</div>
         </div>
+        <!-- second menu bar -->
+        <div class="secondmenu">
+            <div class="secMenuText"><a style="text-decoration:none; color:inherit;" href="#">Chips</a></div>
+            <div class="secMenuText"><a style="text-decoration:none; color:inherit;" href="#">Nuts</a></div>
+            <div class="secMenuText"><a style="text-decoration:none; color:inherit;" href="#">Popcorn</a></div>
+            <div class="secMenuText"><a style="text-decoration:none; color:inherit;" href="#">Crackers</a></div>
+            <div class="secMenuText"><a style="text-decoration:none; color:inherit;" href="#">Sweets</a></div>
+            <div class="secMenuText"><a style="text-decoration:none; color:inherit;" href="#">Sauces</a></div>
+        </div>
+        <!-- navigation -->
         <div class="navigation2">
             <div style="font-size:large">SHOPPING CART (4 items)</div>
             <div class="back-key"><a href="home.html">Back to shopping</a></div>
         </div>
 
         <div class="cart-view">
+            <!-- items-in-cart - left column -->
             <div class="cart-product-area">
-
+                <!-- product 1 -->
                 <div class="product">
                     <div class="product-div1"><img style="width: 50%" src="images/product1.jpg"></div>
                     <div class="product-div2">
@@ -50,12 +63,12 @@
                     </div>
                     <div class="product-div3">
                         <div>3</div>
-                        <div><img src="icons/selector.svg"></div>
+                        <div style="margin-bottom: -5px"><img src="icons/selector.svg"></div>
                     </div>
                     <div class="product-div4">36,21 €</div>
                     <div class="product-div5"><img src="icons/trash.svg"></div>
                 </div>
-
+                <!-- product 2 -->
                 <div class="product">
                     <div class="product-div1"><img style="width: 50%" src="images/dippi.png"></div>
                     <div class="product-div2">
@@ -65,12 +78,12 @@
                     </div>
                     <div class="product-div3">
                         <div>1</div>
-                        <div><img src="icons/selector.svg"></div>
+                        <div style="margin-bottom: -5px"><img src="icons/selector.svg"></div>
                     </div>
                     <div class="product-div4">19,60 €</div>
                     <div class="product-div5"><img src="icons/trash.svg"></div>
                 </div>
-
+                <!-- product 3 -->
                 <div class="product">
                     <div class="product-div1"><img style="width: 50%" src="images/poppa.png"></div>
                     <div class="product-div2">
@@ -80,12 +93,12 @@
                     </div>
                     <div class="product-div3">
                         <div>2</div>
-                        <div><img src="icons/selector.svg"></div>
+                        <div style="margin-bottom: -5px"><img src="icons/selector.svg"></div>
                     </div>
                     <div class="product-div4">26,60 €</div>
                     <div class="product-div5"><img src="icons/trash.svg"></div>
                 </div>
-
+                <!-- product 3 -->
                 <div class="product">
                     <div class="product-div1"><img style="width: 50%" src="images/Marys.png"></div>
                     <div class="product-div2">
@@ -95,13 +108,13 @@
                     </div>
                     <div class="product-div3">
                         <div>3</div>
-                        <div><img src="icons/selector.svg"></div>
+                        <div style="margin-bottom: -5px"><img src="icons/selector.svg"></div>
                     </div>
                     <div class="product-div4">12,60 €</div>
                     <div class="product-div5"><img src="icons/trash.svg"></div>
                 </div>
             </div>
-
+            <!-- shopping cart - right column -->
             <div class="right-side-bar">
                 <div class="cart-login_register">
                     <button class="register-login-buttons">Register</button>
@@ -138,12 +151,13 @@
                     <div>0,00 €</div>
                 </div>
                 <div class="cart-prices">
-                    <div>Total:</div>
+                    <div style="font-size: 24px">Total:</div>
                     <div style="font-size: 24px; color: red;">107,51 €</div>
                 </div>
                 <button class="confirm-order-button" type="button">Confirm Order</button>
             </div>
         </div>
+        <!-- footer section -->
         <footer>
             <div class="footer-logo">
                 <img class="logo" src="images/logo.svg">
@@ -159,8 +173,10 @@
                     <img id="call-icon" src="icons\call.svg">
                     <div>+358 40 378900</div>
                 </div>
-                <img class="fb-icon" src="icons\facebook.svg">
-                <img class="insta-icon" src="icons\insta.svg">
+                <div class="footer-icons">
+                    <img class="fb-icon" src="icons\facebook.svg">
+                    <img class="insta-icon" src="icons\insta.svg">
+                </div>
             </div>
         </footer>
     </div>
