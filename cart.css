@@ -1,0 +1,133 @@
+.navigation2 {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between; 
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.cart-view {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.cart-product-area {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding-right: 20px;
+}
+.product {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 25%;
+    
+}
+.product-div1 {
+    width: 15%;
+    text-align: center;
+}
+.product-div2 {
+    text-align: left;
+    font-size: 15px;
+    width: 37%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.product-div3 {
+    width: 15%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: #C4C4C4;
+    cursor: pointer;
+}
+.product-div4 {
+    width: 20%;
+    text-align: center;
+    font-size: 22px;
+    color: red;
+}
+.product-div5 {
+    width: 5%;
+    text-align: center;
+    cursor: pointer;
+}
+.right-side-bar {
+    width: 30%;
+    padding-left: 20px;
+    padding-top: 25px;
+}
+.cart-login_register {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    align-items: center;
+}
+.register-login-buttons {
+    padding: 3px;
+    border-style: none;
+    color: white;
+    border-radius: 3px;
+    width: 40%;
+    cursor: pointer;
+    text-align: center;
+    background-color: #E77F45;
+    font-size: 16px;
+}
+.register-login-buttons:hover {
+    opacity: 0.7;
+}
+.cart-country {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.country-select {
+    width: 100px;
+    padding: 3px;
+}
+.postal-code {
+    width: 92px;
+    padding: 2px;
+}
+.cart-prices {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.confirm-order-button {
+    padding: 10px;
+    border-style: none;
+    border-radius: 3px;
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+    background-color: #E77F45;
+    font-size: 18px;
+    color: white;
+    margin-top: 30px;
+}
+.confirm-order-button:hover {
+    opacity: 0.7;
+}

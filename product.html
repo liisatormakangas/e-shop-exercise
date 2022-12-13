@@ -6,11 +6,12 @@
     <meta charset="utf-8">
     <link href="https://fonts.cdnfonts.com/css/gotham-bold" rel="stylesheet">
     <link rel="stylesheet" href="estore.css">
+    <link rel="stylesheet" href="product.css">
 </head>
 
 <body>
     <div class="body">
-        
+        <!-- header bar and logo -->
         <div class="header">
             <img class="logo" src="images/logo.svg">
             <div class="search-container">
@@ -20,7 +21,7 @@
                 </form>
             </div>
         </div>
-
+        <!-- main menu bar -->
         <div class="mainmenu">
             <div class="mainmenutext"><a href="home.html" style="color: white; text-decoration: none">HOME</a></div>
             <div class="mainmenutext">ABOUT</div>
@@ -34,7 +35,16 @@
             </div>
             <div class="mainmenutext2"><img id="usericon" src="icons\white-login.svg">LOGIN</div>
         </div>
-
+        <!-- second menu bar -->
+        <div class="secondmenu">
+            <div class="secMenuText"><a style="text-decoration:none; color:inherit;" href="#">Chips</a></div>
+            <div class="secMenuText"><a style="text-decoration:none; color:inherit;" href="#">Nuts</a></div>
+            <div class="secMenuText"><a style="text-decoration:none; color:inherit;" href="#">Popcorn</a></div>
+            <div class="secMenuText"><a style="text-decoration:none; color:inherit;" href="#">Crackers</a></div>
+            <div class="secMenuText"><a style="text-decoration:none; color:inherit;" href="#">Sweets</a></div>
+            <div class="secMenuText"><a style="text-decoration:none; color:inherit;" href="#">Sauces</a></div>
+        </div>
+        <!-- navigation -->
         <div class="navigation">
             <ul class="breadcrumb">
                 <li><a href="#">Home</a></li>
@@ -44,12 +54,11 @@
             </ul>
             <div class="back-key"><a href="home.html">Back to shopping</a></div>
         </div>
-
         <!-- product details - left column -->
         <div class="product">
             <div class="product_left">
                 <div style="margin-left:-20px; color: red; padding-bottom: 15px;">-20% sale!</div>
-                <img class="product_main_image" src="images/product1.jpg">
+                <img class="product_main_image" src="images/product2.jpg">
                 <ul>
                     <li>Bugles, the first cone-shaped corn snack</li>
                     <li>Lightly salted and uniquely crunchy</li>
@@ -59,17 +68,16 @@
                 </ul>
                 <div class="detailed-info">Detailed product information</div>
                 <div class="product_smaller_images">
-                    <img style="width: 13%" src="images/product2.jpg">
-                    <img style="width: 14%" src="images/bugles.png">
+                    <img style="width: 13%; cursor: pointer; padding-right: 20px;" src="images/product1.jpg">
+                    <img style="width: 14%; cursor: pointer" src="images/bugles.png">
                 </div>
             </div>
-
             <!-- product details - right column -->
             <div class="product_right">
                 <div class="product_heading">Lay`s Bugles Original</div>
                 <div class="product_price">
-                    <div style="text-decoration: line-through">15,09 €</div>
-                    <div style="color: red; font-size: 30px; margin-left: 10px;">12,07 €</div>
+                    <div style="text-decoration: line-through">21,48 €</div>
+                    <div style="color: red; font-size: 30px; margin-left: 10px;">17,28 €</div>
                 </div>
                 <div class="rating">
                     <img style="width: 100px" src=icons/rating.svg>
@@ -116,7 +124,6 @@
                 <button class="add-to-cart-button" type="button">Add to shopping cart</button>
             </div>
         </div>
-
         <!-- footer section -->
         <footer>
             <div class="footer-logo">
@@ -133,8 +140,10 @@
                     <img id="call-icon" src="icons\call.svg">
                     <div>+358 40 378900</div>
                 </div>
-                <img class="fb-icon" src="icons\facebook.svg">
-                <img class="insta-icon" src="icons\insta.svg">
+                <div class="footer-icons">
+                    <img class="fb-icon" src="icons\facebook.svg">
+                    <img class="insta-icon" src="icons\insta.svg">
+                </div>
             </div>
         </footer>
     </div>
