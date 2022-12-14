@@ -1,12 +1,12 @@
+/* cart.html - related css */
 .navigation2 {
     display: flex;
     flex-direction: row;
-    align-items: baseline;
+    align-items: center;
     justify-content: space-between; 
-    margin-left: 40px;
-    margin-right: 40px;
-    padding-top: 20px;
-    padding-bottom: 30px;
+    margin-left: 25px;
+    padding-right: 20px;
+    padding-bottom: 25px;
 }
 .cart-view {
     display: flex;
@@ -81,17 +81,18 @@
 }
 .register-login-buttons {
     padding: 3px;
-    border-style: none;
-    color: white;
-    border-radius: 3px;
+    border-style: solid;
+    border-color: #5F5E5E;
+    border-width: 1px;
+    border-radius: 2px;
     width: 40%;
     cursor: pointer;
     text-align: center;
-    background-color: #E77F45;
+    background-color: #FDF9EA;
     font-size: 16px;
 }
 .register-login-buttons:hover {
-    opacity: 0.7;
+    background-color: #FDCA17;
 }
 .cart-country {
     display: flex;
@@ -117,17 +118,18 @@
     padding-bottom: 10px;
 }
 .confirm-order-button {
-    padding: 10px;
-    border-style: none;
-    border-radius: 3px;
-    width: 100%;
+    padding: 8px;
+    border-style: solid;
+    border-color: #5F5E5E;
+    border-width: 1px;
+    border-radius: 2px;
+    width: 104%;
     cursor: pointer;
     text-align: center;
-    background-color: #E77F45;
+    background-color: #FDF9EA;
     font-size: 18px;
-    color: white;
     margin-top: 30px;
 }
 .confirm-order-button:hover {
-    opacity: 0.7;
+    background-color: #FDCA17
 }

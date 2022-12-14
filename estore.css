@@ -1,14 +1,14 @@
-  body{
+body{
     font-family: 'Gotham Bold';
     src: url('https://fonts.cdnfonts.com/css/gotham-bold');
     max-width: 1024px;
     margin: auto;
- }
- .heading1 {
+}
+.heading1 {
     font-weight: 500;
     font-size: 20px;
     color: #000000;
- }
+}
 .heading2{
     font-weight: 500;
     font-size: 14px;
@@ -119,7 +119,7 @@ input[type=text] {
 .navigation{
     display: flex;
     flex-direction: row;
-    align-items: baseline;
+    align-items: center;
     justify-content: space-between; 
     margin-left: -19px;
     margin-right: 20px
@@ -127,20 +127,20 @@ input[type=text] {
 ul.breadcrumb {
     list-style: none;
 }
-  ul.breadcrumb li {
+ul.breadcrumb li {
     display: inline;
     font-size: 14px;
 }
-  ul.breadcrumb li+li:before {
+ul.breadcrumb li+li:before {
     padding: 5px;
     color: black;
     content: "/\00a0";
 }
-  ul.breadcrumb li a {
+ul.breadcrumb li a {
     color: #E77F45;
     text-decoration: none;
 }
-  ul.breadcrumb li a:hover {
+ul.breadcrumb li a:hover {
     color: #E77F45;
     text-decoration: underline;
 }
@@ -151,6 +151,7 @@ ul.breadcrumb {
 .back-key a:hover {
     text-decoration: underline;
 }
+/* index.html - related css */
 /* left column - filter section */
 .filterSection{
     width: 16%;
@@ -226,8 +227,8 @@ input[type='number']{
     border: 1px solid #E77F45;
     margin-right: 20px;
     text-align: left; 
-  }
-  .item-notice {
+}
+.item-notice {
     width: 100%;
     height: 23.95px;
     display: flex;
@@ -236,37 +237,35 @@ input[type='number']{
     margin-bottom: 0px;
   }
  
-  .notice-text {
+.notice-text {
     color: #E77F45;
     font-size: 20px;
     margin-left: 5px;
-  }
-  .notice-numerical {
+}
+.notice-numerical {
     background-color: #E77F45;
     color: white;
     padding-left: 10px;
     padding-right: 10px;
     font-size: 20px;
-  }
-  .item-image{
+}
+.item-image{
     width: 100.33px;
     height: 147px;
     margin-top: 8px;
     margin-left:40px;
-  }
-  .item-name{
+}
+.item-name{
     font-size: 11px;
     margin-top: 5px;
     margin-left: 4px;
-  }
-  
-  .item-price {
+}
+.item-price {
     font-size: 15px;
     margin-top: 5px;
     margin-left: 4px;
-  }
-  
-  .item button {
+}
+.item button {
     width: 100%;
     height: 35px;
     color: white;
@@ -276,18 +275,17 @@ input[type='number']{
     cursor: pointer;
     font-size: 15px;
     margin-top: 16px;
-  }
+}
   
-  .item button:hover {
+.item button:hover {
     opacity: 0.7;
-  }
-  /* footer area */
-  footer {
+}
+/* footer area */
+footer {
     background-color: #FDCA17;
     margin-bottom: 30px;
     padding-bottom: 25px;
     margin-top: 34px; 
-    /* for now */
 }
 .footer-logo .logo {
     width: 157px;
