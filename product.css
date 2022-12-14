@@ -1,3 +1,4 @@
+/* product.html - related css */
 .product {
     display: flex;
     flex-direction: row;
@@ -30,7 +31,7 @@
     padding-bottom: 30px;
 }
 .product_right {
-    padding-top: 50px;
+    padding-top: 45px;
     width: 50%;
     padding-left: 10px;
     padding-right: 50px;
@@ -84,7 +85,7 @@
     align-items: center;
     justify-content: space-around;
     width: 80%;
-    background-color: #E77F45;
+    background-color: #FDF9EA;
     height: 45px;
 }
 .to_cart_box1 {
@@ -110,16 +111,17 @@
     margin-top: auto;
 }
 .add-to-cart-button {
-    padding: 10px;
-    border-style: none;
-    border-radius: 3px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #5F5E5E;
+    border-width: 1px;
+    border-radius: 2px;
     width: 81%;
     cursor: pointer;
     text-align: center;
-    background-color: #E77F45;
+    background-color: #FDF9EA;
     font-size: 18px;
-    color: white;
 }
 .add-to-cart-button:hover {
-    opacity: 0.7;
+    background-color: #FDCA17;
 }
